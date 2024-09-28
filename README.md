@@ -11,7 +11,4 @@
 
 ###
 
-### Tech Adventure Map
-![Tech Adventure Map](https://github.com/EllE961/EllE961/blob/output/adventure-map.svg)
-
 ![Snake animation](https://github.com/EllE961/EllE961/blob/output/snake.svg)
