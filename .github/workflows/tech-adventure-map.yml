@@ -27,10 +27,12 @@ jobs:
           <text x='50%' y='60%' class='text' dominant-baseline='middle' text-anchor='middle'>Unlock new levels by learning and building!</text>
           </svg>" > adventure-map.svg
 
-      - name: Push Tech Adventure Map to output branch
-        uses: crazy-max/ghaction-github-pages@v3.2.0
-        with:
-          target_branch: output
-          build_dir: .
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add adventure-map.svg
+          git commit -m "Generate Tech Adventure Map"
+          git push origin output --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
