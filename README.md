@@ -11,8 +11,6 @@
 
 - 📄 Know about my experiences [x](x)
 
-<h2 align="left">Hi 👋! My name is EllE, and I'm a Computer Science student with expertise in AI, Data Science, Game Development, Cybersecurity, and Web Development.</h2>
-
 <p align="left">Coding for me isn’t just a job—it’s a journey towards an extraordinary life. I’m driven by innovation and a passion for creating things that matter. From building intelligent systems to crafting immersive game worlds, I’m always pushing boundaries, aspiring to start my own private work that truly makes an impact.</p>
 
 ###
@@ -56,6 +54,5 @@
 
 ###
 
-### Snake Animation
 ![Snake animation](https://github.com/EllE961/EllE961/blob/output/snake.svg)
 
