@@ -2,7 +2,7 @@
 <h3 align="center">👨‍💻 AI Enthusiast | Data Science Explorer | Game Developer | Cybersecurity Advocate | Web Developer</h3>
 
 <p align="center">
-  <img src="URL_TO_YOUR_GIF" width="300" />
+  <img src="https://github.com/EllE961/EllE961/blob/main/Gif1.gif" width="300" />
 </p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=elle961&label=Profile%20views&color=0e75b6&style=flat" alt="elle961" /> </p>
@@ -18,7 +18,7 @@
 <p align="left">Coding for me isn’t just a job—it’s a journey towards an extraordinary life. I’m driven by innovation and a passion for creating things that matter. From building intelligent systems to crafting immersive game worlds, I’m always pushing boundaries, aspiring to start my own private work that truly makes an impact.</p>
 
 <p align="center">
-  <img src="URL_TO_YOUR_GIF" width="300" />
+  <img src="https://github.com/EllE961/EllE961/blob/main/Gif2.gif" width="300" />
 </p>
 
 ###
@@ -67,4 +67,8 @@
 ###
 
 ![Snake animation](https://github.com/EllE961/EllE961/blob/output/snake.svg)
+###
+<p align="center">
+  <img src="https://github.com/EllE961/EllE961/blob/main/Gif2.gif" width="300" />
+</p>
 
