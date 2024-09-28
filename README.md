@@ -1,6 +1,10 @@
 <h1 align="center">Hi 👋, I'm Yahya (EllE)</h1>
 <h3 align="center">👨‍💻 AI Enthusiast | Data Science Explorer | Game Developer | Cybersecurity Advocate | Web Developer</h3>
 
+<p align="center">
+  <img src="URL_TO_YOUR_GIF" width="300" />
+</p>
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=elle961&label=Profile%20views&color=0e75b6&style=flat" alt="elle961" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=elle961" alt="elle961" /></a> </p>
@@ -9,9 +13,13 @@
 
 - 📫 How to reach me **yahyaalsalmi961@gmail.ca**
 
-- 📄 Know about my experiences [x](x)
+<h2 align="left">Hi 👋! My name is EllE, and I'm a Computer Science student with expertise in AI, Data Science, Game Development, Cybersecurity, and Web Development.</h2>
 
 <p align="left">Coding for me isn’t just a job—it’s a journey towards an extraordinary life. I’m driven by innovation and a passion for creating things that matter. From building intelligent systems to crafting immersive game worlds, I’m always pushing boundaries, aspiring to start my own private work that truly makes an impact.</p>
+
+<p align="center">
+  <img src="URL_TO_YOUR_GIF" width="300" />
+</p>
 
 ###
 
@@ -42,6 +50,10 @@
   <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> 
   <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> 
   <a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a> 
+</p>
+
+<p align="center">
+  <img src="URL_TO_YOUR_GIF" width="300" />
 </p>
 
 ###
