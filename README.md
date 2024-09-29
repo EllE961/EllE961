@@ -17,7 +17,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/EllE961](https://github.com/EllE961)
 
-- 📫 How to reach me **yahyaalsalmi961@gmail.ca**
+- 📫 How to reach me **yahyaalsalmi961@gmail.com**
 
 <h2 align="left">Hi 👋!, I'm a Computer Science student with expertise in AI, Data Science, Game Development, Cybersecurity, and Web Development.</h2>
 
