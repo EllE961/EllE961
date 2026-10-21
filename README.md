@@ -11,7 +11,8 @@
 </div>
 
 The bigger projects here are a Llama-style language model written without `transformers`, a RAG engine with its own
-HNSW index, and an IDE that draws a repository as a honeycomb. On the smaller ones I care about the same thing: an
+HNSW index, an AlphaZero agent graded against a perfect solver, a flow-matching image model, a two-stage recommender,
+and an IDE that draws a repository as a honeycomb. On the smaller ones I care about the same thing: an
 honest evaluation against a simple baseline. A few READMEs here say the baseline won, and that's on purpose.
 
 Outside of machine learning I play CTFs (mostly reversing and pwn) and build the tools I want while doing it.
@@ -43,10 +44,24 @@ Outside of machine learning I play CTFs (mostly reversing and pwn) and build the
       <br><br><sub>Python · numba · Claude citations · BEIR</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/EllE961/CarDetection"><img src="https://raw.githubusercontent.com/EllE961/CarDetection/main/docs/assets/demo.gif" alt="YOLOv8 tracking vehicles on a motorway with drawn In and Out zones"></a>
-      <h3><a href="https://github.com/EllE961/CarDetection">CarDetection</a></h3>
-      Vehicle tracking with YOLOv8 and BoT-SORT that counts how traffic moves between zones you draw on the video. It matched 23 of the 24 transitions I counted by hand on a motorway clip.
-      <br><br><sub>YOLOv8 · OpenCV · BoT-SORT</sub>
+      <a href="https://github.com/EllE961/zero-four"><img src="https://raw.githubusercontent.com/EllE961/zero-four/main/docs/assets/ui_play.png" alt="Zero Four app: a Connect Four game with the search's visit bars, Q values and the solver's verdict under each column"></a>
+      <h3><a href="https://github.com/EllE961/zero-four">zero-four</a></h3>
+      AlphaZero for Connect Four, trained only by self-play for 3.3 hours and graded against a perfect solver it ships with. It picks an optimal move on 98.1% of benchmark positions and rates Elo 1621.
+      <br><br><sub>PyTorch · numba · MCTS</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/EllE961/lumen-diffusion"><img src="https://raw.githubusercontent.com/EllE961/lumen-diffusion/main/docs/assets/ui-studio.png" alt="Lumen studio: a grid of generated horse images with the sampler controls and the noise schedule"></a>
+      <h3><a href="https://github.com/EllE961/lumen-diffusion">lumen-diffusion</a></h3>
+      Flow matching and diffusion from scratch on CIFAR-10, with five samplers and classifier-free guidance. FID-50k 10.86 in 32 steps, and a studio that streams every denoising step.
+      <br><br><sub>PyTorch · flow matching · FastAPI</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/EllE961/compass-recsys"><img src="https://raw.githubusercontent.com/EllE961/compass-recsys/main/docs/assets/taste.png" alt="Compass taste builder: five liked films and twelve recommendations, each explained by the films behind it"></a>
+      <h3><a href="https://github.com/EllE961/compass-recsys">compass-recsys</a></h3>
+      A two-stage film recommender on MovieLens-1M: SASRec and a two-tower retriever feed a LambdaRank ranker, scored over all 3,706 films. 0.179 NDCG@10 and 10.6 ms p50 serving on CPU.
+      <br><br><sub>PyTorch · LightGBM · FastAPI</sub>
     </td>
   </tr>
 </table>
@@ -77,6 +92,7 @@ Outside of machine learning I play CTFs (mostly reversing and pwn) and build the
 
 | Project | What it is |
 |---|---|
+| [lumen-diffusion](https://github.com/EllE961/lumen-diffusion) | Flow matching and diffusion from scratch on CIFAR-10: FID-50k 10.86 with 32 sampling steps. |
 | [CarDetection](https://github.com/EllE961/CarDetection) | YOLOv8 vehicle tracking with zone-to-zone traffic counts. |
 | [Digit Recognizer](https://github.com/EllE961/Digit-Recognizer-Application) | Tkinter drawing pad that reads handwritten digits with a Keras CNN, 99.01% on the MNIST test set. |
 | [Color Detection](https://github.com/EllE961/Color-Detection) | PyQt5 webcam app that boxes and names 44 colors from hand-written HSV ranges in OpenCV. |
