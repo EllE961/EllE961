@@ -88,6 +88,13 @@ Outside of machine learning I play CTFs (mostly reversing and pwn) and build the
 | [TextProcessor](https://github.com/EllE961/TextProcessor-EllE) | Tkinter app that paraphrases and summarizes text with two T5 models. |
 | [100 DS/ML projects](https://github.com/EllE961/DataScience-ML-Projects) | My checklist of 100 project ideas with datasets, linked to the ones I've finished. |
 
+## LLM and agents
+
+| Project | What it is |
+|---|---|
+| [Itqahn](https://github.com/EllE961/Itqahn) | Written design for an agent platform that runs a software company: 62 docs, 97 agent role specs and OPA policies, with no running platform yet. |
+| [PenEllE](https://github.com/EllE961/PenEllE) | Experimental research-writing pipeline. The planner turns a thesis into sections, word budgets and search queries; later stages are schemas only. |
+
 ## Computer vision
 
 | Project | What it is |
@@ -116,6 +123,8 @@ Outside of machine learning I play CTFs (mostly reversing and pwn) and build the
 |---|---|
 | [GitEllE](https://github.com/EllE961/GitEllE) | Git reimplemented in Python to learn its internals: SHA-1 zlib object store, staging index and refs. |
 | [ArcadeHub](https://github.com/EllE961/ArcadeHub) | WinForms arcade launcher in C# with a Snake game written from scratch on a timer loop and GDI+. |
+| [Fikra](https://github.com/EllE961/Fikra) | Expo app for first-time founders: GPT-4o proposes business ideas from a questionnaire, each with a Business Model Canvas. |
+| [elle-donuts](https://github.com/EllE961/elle-donuts) | Next.js 14 storefront prototype for a fictional donut shop whose cart becomes a prefilled WhatsApp order. |
 | [Quick-Cash](https://github.com/EllE961/Quick-Cash) | Android job board from a university group project, on Firebase with Google Maps and PayPal. |
 | [reactplayground](https://github.com/EllE961/reactplayground) | Expo app with a live Flexbox playground and stack, tab and drawer navigator demos. |
 | [prodmanager](https://github.com/EllE961/prodmanager) | React and Bootstrap product manager UI (its first scaffold is [product-management-app](https://github.com/EllE961/product-management-app)). |
