@@ -1,114 +1,117 @@
 <div align="center">
-                                 
-# <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> &nbsp; Hi 👋, I'm Yahya (EllE) &nbsp; <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
-                   
-</div>        
-        
-<h3 align="center">👨‍💻 AI Enthusiast | Data Science Explorer | Game Developer | Cybersecurity Advocate | Web Developer</h3>
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
-<br><br>
-</p>
+# Yahya Al Salmi
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=elle961&label=Profile%20views&color=0e75b6&style=flat" alt="elle961" /> </p>
+**I build things from the bottom up so I can measure them.**
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=elle961" alt="elle961" /></a> </p>
+<a href="mailto:yahyaalsalmi961@gmail.com"><img src="https://img.shields.io/badge/email-yahyaalsalmi961%40gmail.com-1f1d1b?style=flat-square&labelColor=0d0c0b" alt="email: yahyaalsalmi961@gmail.com"></a>
+<img src="https://img.shields.io/badge/mostly-python%20%C2%B7%20pytorch-d95926?style=flat-square&labelColor=0d0c0b" alt="mostly Python and PyTorch">
+<img src="https://img.shields.io/badge/also-typescript%20%C2%B7%20c%23%20%C2%B7%20rust-3987e5?style=flat-square&labelColor=0d0c0b" alt="also TypeScript, C# and Rust">
 
-- 👨‍💻 All of my projects are available at [https://github.com/EllE961](https://github.com/EllE961)
+</div>
 
-- 📫 How to reach me **yahyaalsalmi961@gmail.com**
+The bigger projects here are a Llama-style language model written without `transformers`, a RAG engine with its own
+HNSW index, and an IDE that draws a repository as a honeycomb. On the smaller ones I care about the same thing: an
+honest evaluation against a simple baseline. A few READMEs here say the baseline won, and that's on purpose.
 
-<h2 align="left">Hi 👋!, I'm a Computer Science student with expertise in AI, Data Science, Game Development, Cybersecurity, and Web Development.</h2>
+Outside of machine learning I play CTFs (mostly reversing and pwn) and build the tools I want while doing it.
 
-<p align="left">Coding for me isn’t just a job—it’s a journey towards an extraordinary life. I’m driven by innovation and a passion for creating things that matter. From building intelligent systems to crafting immersive game worlds, I’m always pushing boundaries, aspiring to start my own private work that truly makes an impact.</p>
+---
 
-<p align="center">
-  <img src="https://github.com/EllE961/EllE961/blob/main/Gif2.gif" width="300" />
-</p>
+## Featured
 
-###
-
-<div align="center">
-
-### GitHub Stats
-
-<table style="border:none;">
+<table>
   <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=elle961&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub Stats" height="150"/>
+    <td width="50%" valign="top">
+      <a href="https://github.com/EllE961/Hexis"><img src="https://raw.githubusercontent.com/EllE961/Hexis/main/docs/assets/hero.png" alt="Hexis showing a repository as a honeycomb of hex cells grouped into coloured folder territories"></a>
+      <h3><a href="https://github.com/EllE961/Hexis">Hexis</a></h3>
+      An IDE that draws your repository as a honeycomb. Files are hex cells and folders are territories, next to an editor, a git panel, a terminal and Claude agents that plan, code and review on the same grid.
+      <br><br><sub>React · Express · Tauri · CodeMirror · Claude Agent SDK</sub>
     </td>
-    <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=elle961&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" height="150"/>
+    <td width="50%" valign="top">
+      <a href="https://github.com/EllE961/forge-llm"><img src="https://raw.githubusercontent.com/EllE961/forge-llm/main/docs/assets/generate.png" alt="Forge playground: generated text coloured by token surprisal with the top-5 alternatives for a token"></a>
+      <h3><a href="https://github.com/EllE961/forge-llm">forge-llm</a></h3>
+      A 26.7M-parameter Llama-style model built from scratch: BPE tokenizer, pretraining, a KV-cached decoder captured as a CUDA graph (590 tok/s), speculative decoding and LoRA, plus a playground for looking inside it.
+      <br><br><sub>PyTorch · CUDA graphs · FastAPI</sub>
     </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elle961&theme=github_dark&hide_border=true&layout=compact" alt="Top Languages" height="150"/>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/EllE961/sift-rag"><img src="https://raw.githubusercontent.com/EllE961/sift-rag/main/docs/assets/ui-ask.png" alt="Sift answering a SciFact claim with citation chips and highlighted source spans"></a>
+      <h3><a href="https://github.com/EllE961/sift-rag">sift-rag</a></h3>
+      Hybrid-search RAG from first principles: BM25, a numba HNSW index, rank fusion and reranking, with citations that point at exact character spans. 0.736 nDCG@10 on SciFact, evaluated on BEIR.
+      <br><br><sub>Python · numba · Claude citations · BEIR</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/EllE961/CarDetection"><img src="https://raw.githubusercontent.com/EllE961/CarDetection/main/docs/assets/demo.gif" alt="YOLOv8 tracking vehicles on a motorway with drawn In and Out zones"></a>
+      <h3><a href="https://github.com/EllE961/CarDetection">CarDetection</a></h3>
+      Vehicle tracking with YOLOv8 and BoT-SORT that counts how traffic moves between zones you draw on the video. It matched 23 of the 24 transitions I counted by hand on a motorway clip.
+      <br><br><sub>YOLOv8 · OpenCV · BoT-SORT</sub>
     </td>
   </tr>
 </table>
 
-</div>
+---
 
-### Languages and Tools:
+## Machine learning
 
-<p align="center"> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
-<!--   <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> -->
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> 
-  <a href="https://www.perl.org/" target="_blank" rel="noreferrer"> <img src="https://api.iconify.design/logos-perl.svg" alt="perl" width="40" height="40"/> </a> 
-  <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> 
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a>
-  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> 
-  <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> 
-  <a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a> 
-</p>
+| Project | What it is |
+|---|---|
+| [Parkinson's voice classifier](https://github.com/EllE961/Parkinson-s-Disease-Kaggle) | Shows that random splits inflate accuracy from 0.78 to 0.90 when the same speakers sit in train and test. |
+| [Amazon Fine Food Reviews](https://github.com/EllE961/Amazon-Fine-Food-Reviews) | Sentiment model on all 568k reviews, 0.899 accuracy, with an analysis of 3-star reviews and duplicates. |
+| [Fake News Detection](https://github.com/EllE961/Fake-News-Detection) | Fake news classifier that measures how much of its 0.990 accuracy comes from the Reuters byline. |
+| [news-detector-app](https://github.com/EllE961/news-detector-app) | The same model in a PyQt5 desktop app that labels a pasted article Fake or Real. |
+| [Spam Detection](https://github.com/EllE961/Spam-Email-Detection) | SMS spam filter with TF-IDF and Naive Bayes, 0.961 accuracy and no false positives. |
+| [Novel genre classification](https://github.com/EllE961/Automated-Multi-Genre-Classification-of-Novels) | Group project tagging 762 Project Gutenberg books with ten genres, 0.49 macro F1. |
+| [Movie recommender](https://github.com/EllE961/Movie-Recommendation-System) | MovieLens SVD compared against bias and k-NN baselines, with learned movie similarities. |
+| [Customer segmentation](https://github.com/EllE961/Mall-Customer-Segmentation-Data-KMeans) | KMeans with k chosen by silhouette and checked for stability across 20 seeds. |
+| [Titanic](https://github.com/EllE961/Titanic-Survival-Prediction) · [Iris](https://github.com/EllE961/Iris-Flower-Classification) · [Loan](https://github.com/EllE961/Loan-Prediction) | Classic tabular problems, each cross-validated against the simplest rule that could beat it. |
+| [chess-ai](https://github.com/EllE961/chess-ai) | Experimental AlphaZero-style agent: policy/value net, MCTS self-play, screen board detection and mouse automation. |
+| [Coin collector RL](https://github.com/EllE961/RLAgent-curriculum-) | Unity ML-Agents arena where 12 PPO agents learn to collect coins and avoid obstacles. |
+| [TextProcessor](https://github.com/EllE961/TextProcessor-EllE) | Tkinter app that paraphrases and summarizes text with two T5 models. |
+| [100 DS/ML projects](https://github.com/EllE961/DataScience-ML-Projects) | My checklist of 100 project ideas with datasets, linked to the ones I've finished. |
 
-<div align="center">
-<!-- <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">  --> <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212281763-e6ecd7ef-c4aa-45b6-a97c-f33f6bb592bd.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="100">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d6c-818f-c4765d5e39a9" width="100">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-6624-42da-99f0-1a7b1a16eecb" width="100">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/3c16d4f2-b757-4c70-8f42-43d5dddd2c36" width="100">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/e0d299f2-767c-4c21-bd49-90f2a19f1a78" width="100"> 
-</div>
+## Computer vision
 
-<p align="center"> 
-  <a href="https://developer.android.com" target="_blank" rel="noreferrer"> </a>
-  <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a>
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> 
-  <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
-  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
-</p>
+| Project | What it is |
+|---|---|
+| [CarDetection](https://github.com/EllE961/CarDetection) | YOLOv8 vehicle tracking with zone-to-zone traffic counts. |
+| [Digit Recognizer](https://github.com/EllE961/Digit-Recognizer-Application) | Tkinter drawing pad that reads handwritten digits with a Keras CNN, 99.01% on the MNIST test set. |
+| [Color Detection](https://github.com/EllE961/Color-Detection) | PyQt5 webcam app that boxes and names 44 colors from hand-written HSV ranges in OpenCV. |
+| [Face Mask Detection](https://github.com/EllE961/Face-Mask-Detection) | Faster R-CNN that finds faces and classifies them as masked or unmasked. |
+| [Face recognition](https://github.com/EllE961/real-time-face-recognition-system) | PyQt5 app for registering faces and recognizing them in real time. |
 
-<div align="center">
-  
-#  In the shadows of complexity, we craft simplicity.
+## Security and CTFs
 
-</div>
+| Project | What it is |
+|---|---|
+| [ghidra-decompile-all](https://github.com/EllE961/ghidra-decompile-all) | Ghidra script that dumps every decompiled function in a program to one C-style text file. |
+| [pwnelle](https://github.com/EllE961/pwnelle) | Static ELF triage for pwn: protections, interesting functions, ROP gadgets and ranked exploit paths. |
+| [SmartHunter](https://github.com/EllE961/smarthunter) | Scans a file for hidden strings and flags across 11 encodings, ranked by confidence. |
+| [CTF Task Tracker](https://github.com/EllE961/CTF-Task-Tracker-bot) | Discord bot that tracks a team's CTF challenges and scaffolds a matching GitHub repo. |
+| [LA CTF 2025: McFlagChecker](https://github.com/EllE961/LA-CTF-McFlagChecker) | Reversing a Minecraft datapack flag checker by inverting a GF(251) matrix and discrete logs. |
+| [DamCTF 2025](https://github.com/EllE961/damctf2025-writeup) · [UMDCTF 2025](https://github.com/EllE961/UMDCTF2025Writeup) | Write-ups across pwn, rev, crypto, misc and OSINT, each with a solver. |
 
+## Tools, apps and games
 
-<p align="center">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/0c7eb6ed-663b-4ce4-bfbd-18239a38ba1b" width="500">
-<br><br>
-</p>
+| Project | What it is |
+|---|---|
+| [GitEllE](https://github.com/EllE961/GitEllE) | Git reimplemented in Python to learn its internals: SHA-1 zlib object store, staging index and refs. |
+| [ArcadeHub](https://github.com/EllE961/ArcadeHub) | WinForms arcade launcher in C# with a Snake game written from scratch on a timer loop and GDI+. |
+| [Quick-Cash](https://github.com/EllE961/Quick-Cash) | Android job board from a university group project, on Firebase with Google Maps and PayPal. |
+| [reactplayground](https://github.com/EllE961/reactplayground) | Expo app with a live Flexbox playground and stack, tab and drawer navigator demos. |
+| [prodmanager](https://github.com/EllE961/prodmanager) | React and Bootstrap product manager UI (its first scaffold is [product-management-app](https://github.com/EllE961/product-management-app)). |
 
-###
+<details>
+<summary><b>Coursework</b></summary>
+<br>
 
-<div align="center">
-  
-#  From the void, we create logic; from the chaos, we craft order.
+| Project | What it is |
+|---|---|
+| [A3-CSCI4177](https://github.com/EllE961/A3-CSCI4177) | Load tests, OWASP ZAP scans and monitoring for a Next.js and Express microservice store. |
+| [CSCI4177L3](https://github.com/EllE961/CSCI4177L3) | React and Redux product catalogue on an Express and PostgreSQL API with JWT roles. |
+| [lab7csci3172](https://github.com/EllE961/lab7csci3172) | React portfolio with persistent dark mode and data from Netlify Functions. |
+| [lab5csci3172](https://github.com/EllE961/lab5csci3172) | Meme generator with canvas pixel effects and Unsplash search through a Netlify Function. |
+| [STAT2430-Assignment-1](https://github.com/EllE961/STAT2430-Assignment-1) | ggplot2 study of the Palmer penguins in R Markdown. |
 
-</div>
-
-
-![Snake animation](https://github.com/EllE961/EllE961/blob/output/snake.svg)
-
+</details>
