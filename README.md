@@ -58,6 +58,7 @@ Outside of machine learning I play CTFs (mostly reversing and pwn) and build the
 | Project | What it is |
 |---|---|
 | [zero-four](https://github.com/EllE961/zero-four) | AlphaZero for Connect Four, trained only by self-play and graded against a perfect solver: Elo 1621, optimal moves on 98.1% of benchmark positions. |
+| [compass-recsys](https://github.com/EllE961/compass-recsys) | Two-stage film recommender on MovieLens-1M: SASRec and a two-tower retriever feeding a LambdaRank ranker, 0.179 NDCG@10 over all 3,706 films. |
 | [Parkinson's voice classifier](https://github.com/EllE961/Parkinson-s-Disease-Kaggle) | Shows that random splits inflate accuracy from 0.78 to 0.90 when the same speakers sit in train and test. |
 | [Amazon Fine Food Reviews](https://github.com/EllE961/Amazon-Fine-Food-Reviews) | Sentiment model on all 568k reviews, 0.899 accuracy, with an analysis of 3-star reviews and duplicates. |
 | [Fake News Detection](https://github.com/EllE961/Fake-News-Detection) | Fake news classifier that measures how much of its 0.990 accuracy comes from the Reuters byline. |
